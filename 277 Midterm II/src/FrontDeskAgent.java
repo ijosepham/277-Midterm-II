@@ -1,5 +1,5 @@
 
-public class FrontDeskAgent {
+public class FrontDeskAgent extends Agent {
     private static FrontDeskAgent agent; 
     
     private FrontDeskAgent ( ) { } 
@@ -12,4 +12,32 @@ public class FrontDeskAgent {
         }
         return agent;
     }
+    
+    public void update ( Guest g ) {
+    	
+    }
+    
+    public void registerGuest ( Guest g ) {
+    	
+    }
+
+    public void checkInGuest ( Guest g ) {
+	
+    }
+    
+    public void checkOutGuest ( Guest g ) {
+    	
+    }
+    
+    public void upgradeAmenities() {
+    	
+    }
+    
+    public void editStayLength(Guest g) {
+    	
+    }
+    
+    public void cancelRegistration(Guest g) {
+    	
+    }  
 }
